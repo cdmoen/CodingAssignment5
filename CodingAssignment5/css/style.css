@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    /* Light border for layout */
+    /*   padding: 15px; */
+}
+
+.row-1::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row-2::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.row-3::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+
+.row-1 {
+
+    background: rgba(252, 245, 237, 0.438);
+}
+
+.row-2 {
+    background-color: rgba(220, 251, 255, 0.32);
+}
+
+.row-3 {
+
+    background-color: rgba(220, 251, 255, 0.32);
+}
+
+/* <-----BEGIN PAGE COMPONENTS ---->  */
+
+
+/* -----  HEADER ------ */
+
+header {
+    background-color: rgb(255, 238, 214);
+    padding: 0 0 0 0;
+    margin: -0.3rem -0.3rem 0 -0.3rem;
+}
+
+.pagename {
+    text-align: right;
+    font-size: 2rem;
+    font-family: 'Yellowtail';
+    padding: 0 0 0 2rem;
+    margin: 0 -1rem 0 0;
+}
+
+.pagename h1 {
+    margin: 0 0 0 0;
+    padding: 0 2rem 0 0;
+    letter-spacing: 0.2rem;
+    background-color: rgba(216, 115, 115, 0.5);
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 0;
+    color: rgba(55, 232, 255, 0.31);
+    text-shadow: 2px -2px 1px rgba(196, 0, 165, 0.32);
+}
+
+.retro-meatloaf {
+    font-family: 'Grand hotel';
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    color: rgb(0, 0, 0);
+    text-shadow: -2px 0px 2px rgba(196, 70, 212, 0.534);
+    padding: 0 2rem 0 2rem;
+    margin: 3rem 0 0 -1rem;
+    background-color: rgba(115, 192, 216, 0.521);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 2%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 90%;
+
+}
+
+.adapted-from {
+    font-family: 'Sulphur Point';
+    font-size: 1rem;
+    padding: 0 0 0 3rem;
+    margin: 0 0 0 0rem;
+}
+
+
+
+
+
+/* --------- FIRST ROW OF 3 --------- */
+
+
+/* ------ PHOTO ------ */
+
+.photo-background {
+
+    /* background-color: rgba(196, 0, 165, 0.32); */
+    padding: 0;
+    margin: 2rem 0 0 2rem;
+    border-radius: 10%;
+}
+
+.photo {
+    margin: 0 0 3rem 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4%;
+
+}
+
+.photo-caption {
+
+    margin: -2rem 0 0 0;
+    padding: 0 0 2rem 0;
+}
+
+
+/* ----- LINKS ------ */
+
+
+
+.links {
+    margin: 0 0 0 0;
+    background-color: rgba(81, 136, 255, 0.32);
+}
+
+.links a {
+    display: block;
+    font-family: 'Limelight';
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 2rem 0rem;
+    margin: 0 0 0 2rem;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.534);
+}
+
+.links a:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+
+
+}
+
+
+
+
+/* ------RATING / CONVERSION- -------*/
+
+
+
+.rating {
+    font-family: 'Limelight';
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 4rem 0 0;
+    float: right;
+}
+
+
+fieldset {
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Sulphur Point';
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+}
+
+fieldset input {}
+
+
+
+.conversion {
+    font-family: 'Limelight';
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 0 4rem;
+
+}
+
+
+/* ------  SECOND ROW OF 3 -----*/
+
+.ingredients {}
+
+.ingredients h3 {
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534);
+    text-align: center;
+    font-family: 'Goblin One';
+    font-size: 2rem;
+}
+
+.ingredients ul {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    column-count: 2;
+
+}
+
+.ingredients li {
+
+    line-height: 4rem
+}
+
+.equipment {
+
+    column-count: 2;
+
+}
+
+.equipment h3 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: left;
+    font-family: 'Ultra';
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: -8rem 0 6rem -1rem;
+    padding: 2rem;
+    letter-spacing: 1rem;
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534)
+}
+
+.equipment ul {
+    font-size: 2rem;
+    font-family: 'Roboto';
+    margin: 0 4rem 0 -6rem;
+    line-height: 6rem;
+    font-variant: small-caps;
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+
+.directions {
+
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    line-height: 6rem;
+    margin: -10rem 0 0 -2rem;
+    padding: 0 3rem 0 0;
+}
+
+.directions h3 {
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534);
+    text-align: left;
+    font-family: 'Goblin One';
+    font-size: 2.2rem;
+    margin: 0 0 0 1rem;
+}
+
+.directions li {
+    line-height: 2rem;
+}
+
+
+/*--------- FOOTER --------*/
+
+.disclaimer {
+
+    font-variant: small-caps;
+}
