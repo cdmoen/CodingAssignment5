@@ -106,28 +106,7 @@ header {
 /* --------- FIRST ROW OF 3 --------- */
 
 
-/* ------ PHOTO ------ */
 
-.photo-background {
-
-    /* background-color: rgba(196, 0, 165, 0.32); */
-    padding: 0;
-    margin: 2rem 0 0 2rem;
-    border-radius: 10%;
-}
-
-.photo {
-    margin: 0 0 3rem 0;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 4%;
-
-}
-
-.photo-caption {
-
-    margin: -2rem 0 0 0;
-    padding: 0 0 2rem 0;
-}
 
 
 /* ----- LINKS ------ */
@@ -139,24 +118,50 @@ header {
     background-color: rgba(81, 136, 255, 0.32);
 }
 
-.links a {
+.links p {
     display: block;
+    text-align: center;
     font-family: 'Limelight';
     font-size: 1rem;
     font-weight: 600;
     color: rgb(0, 0, 0);
     text-align: left;
-    padding: 2rem 0rem;
-    margin: 0 0 0 2rem;
+    padding: 0;
+    margin: 0 0 0 0;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.534);
 }
 
-.links a:hover {
+a:hover {
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
 
 
 }
+
+.groovy {
+    font-family: 'Yellowtail';
+    text-shadow: 1px 0px 1px rgba(26, 36, 39, 0.521);
+}
+
+
+/* ------ PHOTO ------ */
+
+.photo-background {
+
+    /* background-color: rgba(196, 0, 165, 0.32); */
+    padding: 0;
+    margin: 0 0 0 0;
+    border-radius: 0;
+}
+
+.photo {
+    margin: 0 0 0 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4%;
+
+}
+
+.photo-caption {}
 
 
 
@@ -219,30 +224,25 @@ fieldset input {}
     line-height: 4rem
 }
 
-.equipment {
-
-    column-count: 2;
-
-}
+.equipment {}
 
 .equipment h3 {
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    text-align: left;
+    text-align: center;
     font-family: 'Ultra';
     text-transform: uppercase;
-    font-size: 3rem;
-    margin: -8rem 0 6rem -1rem;
+    font-size: 2rem;
+    margin: 0 0 0 0;
     padding: 2rem;
     letter-spacing: 1rem;
     text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534)
 }
 
 .equipment ul {
+    text-align: center;
     font-size: 2rem;
+    list-style-type: none;
     font-family: 'Roboto';
-    margin: 0 4rem 0 -6rem;
-    line-height: 6rem;
+    margin: 0 0 0 0 line-height: 1rem;
     font-variant: small-caps;
     text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534);
 }
