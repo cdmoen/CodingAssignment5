@@ -242,7 +242,8 @@ fieldset input {}
     font-size: 2rem;
     list-style-type: none;
     font-family: 'Roboto';
-    margin: 0 0 0 0 line-height: 1rem;
+    margin: 0 0 0 0;
+    line-height: 1rem;
     font-variant: small-caps;
     text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.534);
 }
