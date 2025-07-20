@@ -9,7 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Chicle&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fascinate&family=Freehand&family=Goblin+One&family=Grand+Hotel&family=Limelight&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&family=Sulphur+Point:wght@300;400;700&family=Trade+Winds&family=Ultra&family=Wendy+One&family=Yellowtail&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <meta name="author" content="Colin Moen">
+    <title>Colin's Cookbook</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -32,18 +33,21 @@
         </div>
 
 
-        <!----- FIRST THREE COLUMNS ------->
+        <!----- FIRST ROW   ------->
         <div class="row-1">
-            <div class="col" class="linkbox" style="width: 10%">
+            <div class="col" id="links-box" style="width: 20%"> <!------LINKS BOX------->
                 <div class="links">
-                    <a href="recipe-1">Recipe 1</a>
-                    <a href="recipe-2">Recipe 2</a>
-                    <a href="recipe-3">Recipe 3</a>
-                    <a href="recipe-4">Recipe 4</a>
+                    <h3 id="links-h3">More <span class="groovy">Groovy</span> Recipes!</h3>
+                    <p><a href="https://www.seriouseats.com/vietnamese-coffee-recipe-11775391">Recipe 1</a></p>
+                    <p><a href="https://www.seriouseats.com/knickerbocker-glory-recipe-11771726">Recipe 2</a></p>
+                    <p><a href="https://www.seriouseats.com/creamed-corn-recipe-11769268">Recipe 3</a></p>
+                    <p><a href="https://www.seriouseats.com/turkey-chourico-smash-burger-recipe-11769970">Recipe 4</a>
+                    </p>
                 </div>
             </div>
-
-            <div class="col" style="width: 30%; background-color: rgba(255, 186, 82, 0.432)">
+            <div class="col" id="photo-box" style="width: 50%"> <!----- PHOTO BOX------>
+                <div></div>
+                <div></div>
                 <figure class="photo-background">
                     <img class="photo" src="images/meatloaf-250px.png" alt="Close-up photo of a loaf of meat">
                     <figcaption class="photo-caption">
@@ -53,14 +57,14 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="col" style="width: 60%">
-                <div class="conversion">
+            <div class="col" id="rating-box" style="width: 30%"> <!--RATING/CONVERSION BOX-->
+                <div class="conversion"> <!--conversion-->
                     <h3>Conversion</h3>
                     <input type="text" id="tblspn" name="tblspn" placeholder="table spoons">
                     =
                     <input type="text" id="cups" name="cups" placeholder="cups">
                 </div>
-                <div class="rating">
+                <div class="rating"> <!--rating-->
                     <h3>Rate This Recipe</h3>
                     <fieldset style="width: 300px">
                         <legend><span style="font-size: 1.2rem">How difficult is this recipe?</span></legend>
@@ -74,47 +78,49 @@
 
         </div>
     </div>
+    <hr>
 
-
-    <!-----SECOND THREE COLUMNS -------->
+    <!-----SECOND ROW -------->
     <div class="row-2">
-        <div class="col" style="width: 40%">
-            <div class="ingredients">
+        <div class="col" id="ingredients-box" style="width: 33%">
+            <div class="ingredients"> <!--ingredients-->
                 <h3>Ingredient List</h3>
                 <ul>
-                    <li> 1/2 yellow onion diced</li>
-                    <li> 1 teaspoon butter</li>
+                    <li> 1/2 yellow onion</li>
+                    <li> 1 tsp butter</li>
                     <li> 2 eggs</li>
                     <li> 3/4 cup milk</li>
                     <li> 3/4 cup Italian bread crumbs</li>
-                    <li> 2 pounds lean ground beef</li>
-                    <li> 1 tablespoon ketchup or chili sauce</li>
-                    <li> 1 teaspoon Italian seasoning</li>
-                    <li> 2 tablespoons chopped fresh parsley</li>
-                    <li> 1 teaspoon kosher salt more to taste</li>
-                    <li> 1/2 teaspoon black pepper</li>
-                    <li> 1/2 cup chili sauce see note</li>
+                    <li> 2 lb lean ground beef</li>
+                    <li> 1 tbsp ketchup</li>
+                    <li> 1 tsp Italian seasoning</li>
+                    <li> 2 tbsp parsley</li>
+                    <li> 1 tsp kosher salt</li>
+                    <li> 1/2 tsp pepper</li>
+                    <li> 1/2 cup chili sauce</li>
                     <li> 1/2 cup ketchup</li>
-                    <li> 2 tablespoons brown sugar optional</li>
+                    <li> 2 tbsp brown sugar</li>
                 </ul>
             </div>
         </div>
-        <div class="col" style="width: 30%">
-            <div class="equipment">
+        <div class="col" id="equipment-box" style="width: 33%">
+            <div class="equipment"> <!--equipment-->
                 <h3>Equipment</h3>
-                <ul>
-                    <li>Oven</li>
-                    <li>Cutting board</li>
-                    <li>Knife</li>
-                    <li>Medium Bowl</li>
-                    <li>Small Pan</li>
-                </ul>
+                <div class="equipment-list">
+                    <ul>
+                        <li>Oven</li>
+                        <li>Cutting board</li>
+                        <li>Knife</li>
+                        <li>Medium Bowl</li>
+                        <li>Small Pan</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col" style="width: 30%">
-            <div class="directions">
+        <div class="col" id="directions-box" style="width: 33%">
+            <div class="directions"> <!--directions-->
                 <h3>Directions</h3>
-                <ol style="line-height: 1.2">
+                <ol>
                     <li>Preheat the oven to 350°F.</li>
                     <li> Line a rimmed baking pan with aluminum foil and spray with cooking spray.</li>
                     <li> In a small pan, cook onions in butter over medium low heat until tender. Let them cool
@@ -136,7 +142,7 @@
                         or
                         until
                         cooked
-                        through and the meatloaf reaches an internal temperature of 160°F*. Broil for 1-2 minutes if
+                        through and the meatloaf reaches an internal temperature of 160°F. Broil for 1-2 minutes if
                         desired.
                     </li>
                     <li> Let the meatloaf rest for 10 minutes before slicing and serving.</li>
@@ -151,8 +157,9 @@
         <div class="col" style="width: 100%">
             <div>
                 <hr>
-                <p class="disclaimer" style="text-align: right; color: black">This page created as academic activity
-                    only.
+                <p>
+                    <a id="disclaimer" href="https://www.bellevuecollege.edu">This Page Created as Academic Activity
+                        Only</a>
                 </p>
             </div>
         </div>
